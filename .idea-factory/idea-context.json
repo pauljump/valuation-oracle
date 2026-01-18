@@ -1,0 +1,13 @@
+{
+  "ideaId": "IDEA-160",
+  "title": "Valuation Oracle V3 - Analyst Method (Bias Removal via CEO Interview)",
+  "status": "Tool",
+  "readiness": 0,
+  "github": "https://github.com/pauljump/valuation-oracle",
+  "directory": "valuation-oracle",
+  "relatedIdeas": related:,
+  "lastSession": "2026-01-18T21:20:53Z",
+  "technology": [],
+  "domain": [],
+  "nextMilestone": "Start conversation to define project"
+}
