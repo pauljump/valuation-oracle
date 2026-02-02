@@ -1,7 +1,51 @@
 {
-  "decisions": [],
-  "approaches": [],
-  "assumptions": [],
+  "decisions": [
+    {
+      "timestamp": "2026-01-18T16:30:00Z",
+      "decision": "Keep Uber-specific for now (not generalized)",
+      "rationale": "User said 'for now, let's keep it all uber'"
+    },
+    {
+      "timestamp": "2026-01-18T16:45:00Z",
+      "decision": "Build V3 based on analyst research framework",
+      "rationale": "V2 has 3 critical failures (future predictions) and missing 10 critical questions from analyst research"
+    }
+  ],
+  "approaches": [
+    {
+      "timestamp": "2026-01-18T16:40:00Z",
+      "approach": "Audit V2 questions against analyst framework first, then build V3",
+      "status": "in-progress",
+      "rationale": "Faster than building from scratch - keep 23 good questions, fix 3 failures, add 10 missing"
+    }
+  ],
+  "assumptions": [
+    {
+      "timestamp": "2026-01-18T16:35:00Z",
+      "assumption": "Questions that move valuation >$3/share are the ones that matter most",
+      "validated": false,
+      "needsTest": "Run sensitivity analysis on answers to prove impact"
+    },
+    {
+      "timestamp": "2026-01-18T16:45:00Z",
+      "assumption": "Organic vs promotional growth is critical missing question",
+      "validated": false,
+      "needsTest": "Test if this actually changes fair value significantly"
+    },
+    {
+      "timestamp": "2026-01-18T16:45:00Z",
+      "assumption": "Uber One subscription metrics are critical",
+      "validated": false,
+      "needsTest": "Model impact on recurring revenue quality"
+    }
+  ],
   "blockers": [],
-  "signals": []
+  "signals": [
+    {
+      "timestamp": "2026-01-18T16:48:00Z",
+      "signal": "User provided comprehensive analyst research document (30 questions from real analyst methodology)",
+      "source": "External research",
+      "impact": "Validates our approach - these are the questions top analysts actually ask"
+    }
+  ]
 }
